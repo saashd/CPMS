@@ -1,0 +1,14 @@
+default_context:
+  project_name: 'CPMS'
+  project_slug: 'cpms'
+  domain_main: 'cpms.technion.ac.il'
+  backend_cors_origins: 'http://localhost, http://localhost:4200, http://localhost:3000, http://localhost:8080, http://dev.cpms.technion.ac.il, https://cpms.technion.ac.il, http://local.dockertoolbox.tiangolo.com, http://localhost.tiangolo.com'
+  docker_swarm_stack_name_main: 'docker_swarm_stack_deploy'
+  traefik_constraint_tag: 'cpms.technion.ac.il'
+  traefik_public_network: 'traefik-public'
+  traefik_public_constraint_tag: 'traefik-public'
+  docker_image_prefix: 'docker_cpms_'
+  docker_image_backend: 'docker_cpms_backend'
+  docker_image_frontend: 'docker_cpms_frontend'
+  _copy_without_render: [frontend/src/**/*.html, frontend/src/**/*.vue, frontend/node_modules/*]
+  _template: ./

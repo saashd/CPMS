@@ -1,0 +1,74 @@
+.rdw-editor-main {
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.rdw-editor-toolbar {
+    padding: 6px 5px 0;
+    border-radius: 2px;
+    border: 1px solid #F1F1F1;
+    display: flex;
+    justify-content: flex-start;
+    background: white;
+    flex-wrap: wrap;
+    font-size: 15px;
+    margin-bottom: 5px;
+    user-select: none;
+}
+
+.public-DraftStyleDefault-block {
+    margin: 1em 0;
+}
+
+.rdw-editor-wrapper:focus {
+    outline: none;
+}
+
+.rdw-editor-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    box-sizing: content-box;
+}
+
+.rdw-editor-main blockquote {
+    border-left: 5px solid #f1f1f1;
+    padding-left: 5px;
+}
+
+.rdw-editor-main pre {
+    background: #f1f1f1;
+    border-radius: 3px;
+    padding: 1px 10px;
+}
+
+.myBtn {
+    outline: 0;
+    display: inline-block;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    cursor: pointer;
+    color: #fff;
+    justify-content: inherit;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 0.875rem;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    align-items: center;
+    text-align:center;
+    background-color:#e91e63;
+    border-radius: 0.5em;
+
+}
+
+.myBtn:hover {
+    color: #fff;
+    box-shadow:  0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    background-color: #ca1955
+
+}

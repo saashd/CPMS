@@ -1,0 +1,80 @@
+.ReactVirtualized__Table__headerColumn {
+    align-items: center;
+    border-right: 1px solid #D3D3D3;
+    display: flex;
+    flex: 1;
+    height: 100%;
+    min-width: 0;
+}
+
+.ReactVirtualized__Table__headerRow {
+    background-image: linear-gradient(#fff, #efefef);
+    border: 1px solid #D3D3D3;
+    padding-right: 0 !important;
+}
+
+.ReactVirtualized__Table__row {
+    outline: none;
+    background: #fbfbfb;
+    z-index: 1300;
+    display: flex;
+    font-weight: 600;
+    align-items: stretch;
+    border-bottom: 1px solid #D3D3D3;
+    border-left: 1px solid #D3D3D3;
+}
+
+.ReactVirtualized__Table__row :active {
+    cursor: move;
+}
+
+.ReactVirtualized__Table__rowColumn {
+    align-items: center;
+    border-right: 1px solid #D3D3D3;
+    display: flex;
+    flex: 1;
+    height: 100%;
+    min-width: 0;
+    overflow: auto !important;
+    outline: 0 !important;
+
+}
+
+.ReactVirtualized__Table__rowColumn::-webkit-scrollbar {
+    width: 1em;
+    height: 0.5em;
+
+}
+
+.ReactVirtualized__Table__rowColumn::-webkit-scrollbar-button {
+    background: #fbfbfb;
+    width: 0.01em;
+}
+
+.ReactVirtualized__Table__rowColumn::-webkit-scrollbar-track-piece {
+    background: #fbfbfb;
+}
+
+
+.ReactVirtualized__Table__rowColumn::-webkit-scrollbar-thumb {
+    background: #888;
+    border: 1em solid transparent;
+    border-radius: 1em;
+    background-clip: content-box;
+}
+
+.ReactVirtualized__Table__rowColumn::-webkit-scrollbar-thumb:hover {
+    background: #696969;
+}
+
+.ReactVirtualized__Table__headerColumn, .ReactVirtualized__Table__rowColumn {
+    margin-right: 0;
+}
+
+.ReactVirtualized__Grid {
+    outline: none;
+}
+
+.ReactVirtualized__Table{
+     border-radius: 30px;
+}

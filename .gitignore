@@ -1,0 +1,12 @@
+.vscode
+.mypy_cache
+/venv/
+/.idea/
+/frontend/.dockerignore
+.history/
+/frontend/.eslintcache
+/backend/app/app/pythonsqlite.db
+/backend/venv/
+/backend/app/app/.env
+/frontend/.env
+/.env

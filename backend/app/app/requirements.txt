@@ -1,0 +1,12 @@
+Flask>=1.1.2
+Flask-Cors>=3.0.10
+requests>=2.25.0
+pyjwt==1.7.1; python_version < '3.0'
+google-auth==1.27.1
+firebase-admin>=4.5.2
+requests-toolbelt==0.9.1
+pymysql>=1.0.2
+Flask-SQLAlchemy>=2.4.4
+Flask-Migrate>=2.6.0
+Flask-Script>=2.0.6
+mysql-connector-python>=8.0.23

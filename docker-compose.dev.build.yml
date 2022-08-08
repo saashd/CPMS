@@ -1,0 +1,23 @@
+version: '3.3'
+services:
+  backend:
+    build: ./backend
+    links:
+      - db
+    volumes:
+      - ./backend_data_volume:/app
+    restart: always
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        FRONTEND_ENV: development
+    restart: always
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: "${MYSQL_ROOT_PASSWORD}"
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d/:ro
+      - ./mysql_data_v2:/var/lib/mysql
+    restart: always
