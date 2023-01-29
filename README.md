@@ -1,7 +1,7 @@
 # CPMS
 
 ## Demo
-You can find demo [here](https://shimmering-travesseiro-cac626.netlify.app)
+You can find demo [here](cpms.alexdruzina.com)
 
 Cliend Side deployed on Netlify
 
