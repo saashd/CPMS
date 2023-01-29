@@ -9,6 +9,10 @@ Server side deployed on Heroku
 
 
 
+
+https://user-images.githubusercontent.com/52024657/215314359-9038ef1f-da2f-4a09-b482-ed7761266ac5.mp4
+
+
 ## Backend Requirements
 
 * Docker
